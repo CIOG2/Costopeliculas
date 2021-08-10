@@ -1,0 +1,62 @@
+.main__section--formulario-sitios-de-stream{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr  1fr;
+    width: 90%;
+    height: auto;
+
+background-color: blue;
+    margin: 0 auto;
+}
+.main__section--formulario-sitios-de-stream span{
+    width: 90px;
+    height: 50px;
+    margin: 5px 0;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__section--formulario-sitios-de-stream .nexflix{
+ background-image: url('https://img.huffingtonpost.com/asset/5e1d9ca3210000530014a453.jpeg');
+}
+.main__section--formulario-sitios-de-stream .youtube{
+    background-image: url('https://logos-marcas.com/wp-content/uploads/2020/04/YouTube-Logo.png');
+}
+.main__section--formulario-sitios-de-stream .hboMax{
+    background-image: url('https://arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/AVAQ3TT47RH5XN753MJQUW2FTQ.jpg');
+}
+.main__section--formulario-sitios-de-stream .disney{
+    background-image: url('https://graffica.info/wp-content/uploads/2018/11/disneyplus-1200x675.jpg');
+}
+.main__section--formulario-sitios-de-stream .primeVideo{
+    background-image: url('https://wikitechnews.net/wp-content/uploads/2021/02/1612498264_%C2%BFEres-un-usuario-de-Amazon-Prime-en-iOS-Ahora-puedes.jpg');
+}
+.main__section--formulario-sitios-de-stream .paramount{
+    background-image: url('https://i0.wp.com/elpoderdelasideas.com/wp-content/uploads/paramount-plus-2020-logo-elpoderdelasideas.png?resize=821%2C400');
+}
+.main__section--formulario-sitios-de-stream .hulu{
+    background-image: url('https://1000marcas.net/wp-content/uploads/2021/04/Hulu-logo.png');
+}
+.main__section--formulario-sitios-de-stream .appleTv{
+    background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/09/hipertextual-app-apple-tv-prepara-su-llegada-consolas-playstation-y-xbox-2020293332.jpg?fit=1200%2C720&ssl=1');
+}
+.main__section--formulario-sitios-de-stream .plutoTv{
+    background-image: url('https://i.blogs.es/97a542/pluto-tv-mexico-contenido-55-socios-canales/1366_2000.png');
+}
+.main__section--formulario-sitios-de-stream .blim{
+    background-image: url('https://i.blogs.es/28e0cf/blimtv/1366_2000.jpg');
+}
+.main__section--formulario-sitios-de-stream .crunchyroll{
+    background-image: url('https://logosmarken.com/wp-content/uploads/2021/03/Crunchyroll-Zeichen.png');
+}
+.main__section--formulario-sitios-de-stream .claroVideo{
+    background-image: url('https://multipress.com.mx/wp-content/uploads/2013/12/claro_video_g.png');
+}
+
+
+
+
