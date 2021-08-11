@@ -1,5 +1,5 @@
 const listaDeCuentasPagadas = [];
-let nexflix = false, youtube = false, hboMax = true, disney = false, primeVideo = true, paramount = false, hulu = false, appleTv = false, plutoTv = false, blimTv = false, crunchyroll = false, claroVideo = false; 
+let nexflix = false, youtube = false, hboMax = false, disney = false, primeVideo = false, paramount = false, hulu = false, appleTv = false, plutoTv = false, blimTv = false, crunchyroll = false, claroVideo = false; 
 let precio = 0;
 
 function markedNexflix() {
@@ -166,23 +166,23 @@ function CALCULAR() {
                 listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
             }
                 if(HUprecio1){
-                    precio = 139;
+                    precio = 120;
                     listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                 }  
                     if(HUprecio2){
-                        precio = 196;
+                        precio = 240;
                         listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                     }
                         if(HUprecio3){
-                            precio = 266;
+                            precio = 1305;
                             listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                         }
                             if(CRprecio1){
-                                precio = 139;
+                                precio = 99;
                                 listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                             }    
                                 if(CRprecio2){
-                                    precio = 99;
+                                    precio = 125;
                                     listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                                 }
 
@@ -211,13 +211,27 @@ function CALCULAR() {
                             listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                         }                        
                             if(claroVideo){
-                                precio = 69;
-                                listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
+                                    precio = 69;
+                                    listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                             }
+                                if(appleTv){
+                                        precio = 69;
+                                        listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
+                                }
+                                    if(plutoTv){
+                                            precio = 0;
+                                            listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
+                                        }
+
     let total = 0;
     for (let i = 0; i < listaDeCuentasPagadas.length; i++) {    
         total += listaDeCuentasPagadas[i];
     }
-    return total;
+    
+    console.log(total);
+    
+    for (let i = listaDeCuentasPagadas.length; i > 0; i--) {
+        listaDeCuentasPagadas.pop();
+      }
 }
-console.log(CALCULAR());
+
