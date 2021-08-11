@@ -60,7 +60,7 @@ background-color: blue;
 }
 
 
-.done{
+.marked{
     border: 2px solid greenyellow;
     transform: scale(.8);
     transition: transform 2s;
