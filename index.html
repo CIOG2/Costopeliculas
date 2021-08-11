@@ -47,11 +47,11 @@
                         <span onclick="markedDisney('disney')" id="disney" class="disney" alt="Disney plus"></span>
                         <span onclick="markedPrimeVideo('primeVideo')" id="primeVideo" class="primeVideo" alt="Prime video"></span>
                         <span onclick="markedParamount('paramount')" id="paramount" class="paramount" alt="Paramount plus"></span>
-                        <span id="hulu" class="hulu" alt="Hulu"></span>
+                        <span onclick="markedHulu()" id="hulu" class="hulu" alt="Hulu"></span>
                         <span onclick="markedAppleTv('appleTv')" id="appleTv" class="appleTv" alt="Apple Tv plus"></span>
                         <span onclick="markedPlutoTv('plutoTv')" id="plutoTv" class="plutoTv" alt="Pluto Tv"></span>
                         <span onclick="markedBlimTv('blim')" id="blim" class="blim" alt="Blim"></span>
-                        <span id="crunchyroll" class="crunchyroll" alt="Crunchyroll"></span>
+                        <span onclick="markedCrunchyroll()" id="crunchyroll" class="crunchyroll" alt="Crunchyroll"></span>
                         <span onclick="markedClaroVideo('claroVideo')" id="claroVideo" class="claroVideo" alt="Claro Video"></span>
 
                         <div class="main__section-alert-formularios formulario-nexflix" id="nexflixPlanes">
@@ -71,32 +71,32 @@
                                 </label>
                             </form>
                         </div>
-                        <div class="main__section-alert-formularios formulario-hulu">
+                        <div class="main__section-alert-formularios formulario-hulu" id="HuluPlanes">
                             <form>
                                 <h3>¿Que plan tienes?</h3>
                                 <label>
-                                    <input id="huluRES1" type="radio">                       
+                                    <input onclick="removeDisplay('HuluPlanes')" id="huluRES1" type="radio">                       
                                     Hulu
                                 </label>
                                 <label>
-                                    <input id="huluRES2" type="radio">
+                                    <input onclick="removeDisplay('HuluPlanes')" id="huluRES2" type="radio">
                                     Hulu (No Ads)
                                 </label>
                                 <label>
-                                    <input id="huluRES3" type="radio">
+                                    <input onclick="removeDisplay('HuluPlanes')" id="huluRES3" type="radio">
                                     Hulu + Live Tv
                                 </label>
                             </form>
                         </div>
-                        <div class="main__section-alert-formularios formulario-crunchyroll">
+                        <div class="main__section-alert-formularios formulario-crunchyroll" id="crunchyrollPlanes">
                             <form>
                                 <h3>¿Que plan tienes?</h3>
                                 <label>
-                                    <input id="crunchyrollRES1" type="radio">
+                                    <input onclick="removeDisplay('crunchyrollPlanes')" id="crunchyrollRES1" type="radio">
                                     Plan Fan
                                 </label>
                                 <label>
-                                    <input id="crunchyrollRES2" type="radio">
+                                    <input onclick="removeDisplay('crunchyrollPlanes')" id="crunchyrollRES2" type="radio">
                                     Plan Mega Fan
                                 </label>
                             </form>

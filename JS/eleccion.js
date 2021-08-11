@@ -22,24 +22,42 @@ function markedNexflix() {
         nexflix = true;
     }    
 }
+function markedHulu() {
+    
+    if (hulu) {
+        document.getElementById('hulu').classList.remove('marked');
+        document.getElementById('huluRES1').checked = false;
+        document.getElementById('huluRES2').checked = false;
+        document.getElementById('huluRES3').checked = false;
+        
+        hulu = false;
+    } else {
+        document.getElementById('hulu').classList.add('marked');
+        setTimeout(() => {
+            document.getElementById('HuluPlanes').classList.add('display'); 
+        }, 50); 
+        hulu = true;
+    }    
+}
 
+function markedCrunchyroll() {
+    
+    if (crunchyroll) {
+        document.getElementById('crunchyroll').classList.remove('marked');
+        document.getElementById('crunchyrollRES1').checked = false;
+        document.getElementById('crunchyrollRES2').checked = false;
 
+        crunchyroll = false;
+    } else {
+        document.getElementById('crunchyroll').classList.add('marked');
 
+        setTimeout(() => {
+            document.getElementById('crunchyrollPlanes').classList.add('display'); 
+        }, 50); 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        crunchyroll = true;
+    }    
+}
 
 
 
@@ -128,49 +146,11 @@ function markedClaroVideo(plataforma) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function removeDisplay(id) {        
     setTimeout(() => {
         document.getElementById(id).classList.remove('display');  
     }, 200);
 }
-
-
-
-console.log(listaDeCuentasPagadas.length);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -191,4 +171,14 @@ function CALCULAR() {
         precio = 266;
         listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
     }
+
+
+
+
+
+
+
+
+
+
 }
