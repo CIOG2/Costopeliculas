@@ -22,24 +22,31 @@
                 <br>
                 Pero te has pregundo si realmente vale la pena pagarlo mes tras
                 mes todas tus suscripcines mensuales.
-                <br>
-                <br>
-                Contesta las siguentes preguntas y averigualo.
             </p>
         </section>
     </header>
     <main class="main">
             <section class="main__section">
+                <p>
+                    Contesta las siguentes preguntas y averigualo.
+                </p>
                 <form class="main__section--formulario">
                     <label for="">
                         ¿Cuantas peliculas vez al mes?
+                        <br>
                         <input type="number">
                     </label>
                     <br>
                     <label for="">
                         ¿Cuanto cuesta un boleto en tu cine favorito?
-                        <input type="number">
+                        <br>
+                        <input type="number" placeholder="Pesos MXN">
                     </label>
+                </form>   
+                <div class="main__section--platformas">
+                        
+                    <h2>Seleciona las plataformas que estas pagando</h2>
+
                     <div class="main__section--formulario-sitios-de-stream">
                         <span onclick="markedNexflix()" id="nexflix" class="nexflix" alt="Nexflix"></span>
                         <span onclick="markedYoutube('youtube')" id="youtube" class="youtube" alt="Youtube"></span>
@@ -102,10 +109,10 @@
                             </form>
                         </div>
                     </div>
-                    <div>
-                        <button class="" onclick="CALCULAR()" type="button">Calcular</button>
-                    </div>
-                </form>   
+            </div>
+                <div>
+                    <button class="" onclick="CALCULAR()" type="button">Calcular</button>
+                </div>
                 <section class="main__section" id="respuesta">
                     <div class="main__section--respuesta">
                         <p>
