@@ -5,6 +5,7 @@
     grid-template-rows: 1fr 1fr 1fr  1fr;
     width: 90%;
     height: auto;    
+    max-width: 400px;
 }
 
 .main__section--formulario-sitios-de-stream-container{
@@ -54,7 +55,7 @@
     background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/09/hipertextual-app-apple-tv-prepara-su-llegada-consolas-playstation-y-xbox-2020293332.jpg?fit=1200%2C720&ssl=1');
 }
 .main__section--formulario-sitios-de-stream .starzPlay{
-    background-image: url('https://lh3.googleusercontent.com/proxy/okxAwaU-je8JqJrgVTRfLiENDFpb7913-fgiQMhnXPwl-hqALY3tU2QlF4KPbjF5cPdeyHqMcFKrHH5w4UcA7jn_1d77mdnfr3GHJKzsfLoemM0pyTsrvA');
+    background-image: url('https://www.pcworld.es/cmsdata/features/3789364/suscripcion-starzplay_thumb1200_16-9.jpg');
 }
 .main__section--formulario-sitios-de-stream .blim{
     background-image: url('https://i.blogs.es/28e0cf/blimtv/1366_2000.jpg');
