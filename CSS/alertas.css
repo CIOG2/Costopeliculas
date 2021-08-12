@@ -8,8 +8,10 @@
     border: 2px solid #808080;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 4px 4px 15px 2px rgba(0, 0, 0);
 }
 .main__section-alert-formularios h3{
+    font-size: 1.7rem;
     padding: 7px 0;
     border-bottom: 1px solid black;
 }
@@ -22,7 +24,7 @@
     align-items: center;
     height: 50px;
     padding-left: 10px;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     border-bottom: 1px solid black;
 }
 

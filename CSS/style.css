@@ -9,6 +9,8 @@ html{
 }
 
 body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
     width: 100%;
     height: auto;
     min-height: 100vh;
@@ -56,6 +58,7 @@ body{
     font-size: 1.8rem;
     font-weight: 700;
     color: aliceblue;
+    text-shadow: 3px 2px 0px rgb(0 0 0);
 }
 
 .main__section--formulario label input{
@@ -67,13 +70,11 @@ body{
     outline: none;
     border: none;
     border-radius: 20px;
+    box-shadow: 3px 3px 10px 1px rgb(32, 1, 1);
 }
 .main__section--formulario label input::placeholder{
     font-size: 1.4rem;
 }
-
-
-
 
 .main__section--platformas{
     display: flex;
@@ -83,6 +84,26 @@ body{
     width: 100%;
     height: auto;
     max-width: 600px;
+    text-align: center;
+}
+
+.main__section--platformas h2{
+    font-size: 2rem;
+    margin: 20px 0;
+    color: aliceblue;
+}
+
+.main__section--platformas-boton{
+    width: 70%;
+    height: 40px;
+    max-width: 250px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin: 20px 0 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px 3px rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 
@@ -113,3 +134,20 @@ body{
     justify-content: center;
     align-items: center;
 }
+footer div ul li{
+    font-size: 1.2rem;
+    color: aliceblue;
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer div ul li a{
+    font-size: 1.2rem;
+    color: aliceblue;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.footer div ul li a:hover{
+    color: rgb(96, 96, 233);
+}
+

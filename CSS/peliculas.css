@@ -4,9 +4,18 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr  1fr;
     width: 90%;
-    height: auto;
+    height: auto;    
 }
-.main__section--formulario-sitios-de-stream span{
+
+.main__section--formulario-sitios-de-stream-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__section--formulario-sitios-de-stream-container span{
     width: 90px;
     height: 50px;
     margin: 5px 0;
@@ -44,8 +53,8 @@
 .main__section--formulario-sitios-de-stream .appleTv{
     background-image: url('https://i0.wp.com/hipertextual.com/wp-content/uploads/2020/09/hipertextual-app-apple-tv-prepara-su-llegada-consolas-playstation-y-xbox-2020293332.jpg?fit=1200%2C720&ssl=1');
 }
-.main__section--formulario-sitios-de-stream .plutoTv{
-    background-image: url('https://i.blogs.es/97a542/pluto-tv-mexico-contenido-55-socios-canales/1366_2000.png');
+.main__section--formulario-sitios-de-stream .starzPlay{
+    background-image: url('https://lh3.googleusercontent.com/proxy/okxAwaU-je8JqJrgVTRfLiENDFpb7913-fgiQMhnXPwl-hqALY3tU2QlF4KPbjF5cPdeyHqMcFKrHH5w4UcA7jn_1d77mdnfr3GHJKzsfLoemM0pyTsrvA');
 }
 .main__section--formulario-sitios-de-stream .blim{
     background-image: url('https://i.blogs.es/28e0cf/blimtv/1366_2000.jpg');

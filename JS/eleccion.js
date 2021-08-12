@@ -1,5 +1,5 @@
 const listaDeCuentasPagadas = [];
-let nexflix = false, youtube = false, hboMax = false, disney = false, primeVideo = false, paramount = false, hulu = false, appleTv = false, plutoTv = false, blimTv = false, crunchyroll = false, claroVideo = false; 
+let nexflix = false, youtube = false, hboMax = false, disney = false, primeVideo = false, paramount = false, hulu = false, appleTv = false, starzPlay = false, blimTv = false, crunchyroll = false, claroVideo = false; 
 let precio = 0;
 
 function markedNexflix() {
@@ -109,13 +109,13 @@ function markedAppleTv(plataforma) {
         appleTv = true;
     } 
 }
-function markedPlutoTv(plataforma) {
-    if(plutoTv){
+function markedStarzPlay(plataforma) {
+    if(starzPlay){
         document.getElementById(plataforma).classList.remove('marked');
-        plutoTv = false;
+        starzPlay = false;
     } else {
         document.getElementById(plataforma).classList.add('marked');
-        plutoTv = true;
+        starzPlay = true;
     } 
 }
 function markedBlimTv(plataforma) {
@@ -218,8 +218,8 @@ function CALCULAR() {
                                         precio = 69;
                                         listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                                 }
-                                    if(plutoTv){
-                                            precio = 0;
+                                    if(starzPlay){
+                                            precio = 89;
                                             listaDeCuentasPagadas[listaDeCuentasPagadas.length] = precio;
                                         }
 
