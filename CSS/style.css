@@ -17,6 +17,13 @@ body{
     background-repeat: no-repeat;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .header{
     width: 100%;
@@ -27,10 +34,6 @@ body{
 .header__section{
     width: 100%;
     max-width: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 
@@ -43,8 +46,8 @@ body{
 }
 
 .header__section p{
-    width: 90%;
-    text-align: left;
+    width: 100%;
+    text-align: center;
     font-size: 1.6rem;
     line-height: 2rem;
     color: aliceblue;
@@ -60,12 +63,9 @@ body{
     height: auto;
     margin-bottom: 40px;
     max-width: 600px;
+    margin: 0 auto;
 }
 .mian .main__section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     height: auto;
 }
@@ -79,10 +79,6 @@ body{
 }
 
 .main__section--formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     height: auto;
     max-width: 600px;
     text-align: left;
@@ -109,10 +105,6 @@ body{
     font-size: 1.4rem;
 }
 .main__section--platformas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 100%;
     height: auto;
     max-width: 600px;
