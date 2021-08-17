@@ -74,3 +74,11 @@
     transition: transform 2s;
     opacity: .8;    
 }
+
+ @media(min-width: 800px){
+        
+    .main__section--formulario-sitios-de-stream-container span{
+        width: 120px;
+        height: 67px;
+    }
+ }

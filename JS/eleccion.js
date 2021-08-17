@@ -228,10 +228,55 @@ function CALCULAR() {
         total += listaDeCuentasPagadas[i];
     }
     
-    console.log(total);
-    
+
     for (let i = listaDeCuentasPagadas.length; i > 0; i--) {
         listaDeCuentasPagadas.pop();
       }
+
+      return total;
 }
+
+function calcularPrecios() {
+   let RentaStreaming = CALCULAR();
+   let peliculasVistas = document.getElementById("peliculasVistasPorMes").value;
+   let CostoBoleto = document.getElementById("costoBoletoCine").value;
+   let respuesta = document.getElementById("respuestaTexto");   
+   
+
+if (RentaStreaming <= 0){
+    swal(':(', 'Seleciones las plataformas que esta pagando', 'error')
+} 
+    else if (peliculasVistas <= 0){
+        swal(':(', 'No ingresate cuantas peliculas vez', 'error')
+    } 
+        else if (CostoBoleto <= 0){
+            swal(':(', 'No ingresaste cuanto vale el boleto de tu cine', 'error')
+        } 
+else{
+    let resultadoCine = peliculasVistas * CostoBoleto;
+    
+    agregarRespueta();
+    if(RentaStreaming < resultadoCine){
+        respuesta.innerText = `Gastas $${RentaStreaming} pesos al mes pagando tus servicios de Streaming y te resulta mas barato que ir al cine.
+        
+        En el cine pagarias $${resultadoCine} pesos por ver ${peliculasVistas} peliculas.`;
+    }
+    else{
+        respuesta.innerText = `Gastas $${resultadoCine} pesos al mes por ir a ver ${peliculasVistas} peliculas en el cine.
+
+       Es mejor ir al cine que pagar $${RentaStreaming} pesos por sitios de streaming que no usas.`;
+    }
+     
+}
+
+
+
+
+
+}
+
+function agregarRespueta() {
+    document.getElementById('respuestas').classList.remove('DISPLAYnone');
+}
+
 

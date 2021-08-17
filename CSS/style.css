@@ -16,14 +16,12 @@ body{
     background: linear-gradient(to left top, rgba(21, 101, 192, 1) 0%, rgba(185, 43, 39, .95) 100%);
     background-repeat: no-repeat;
 }
-
 .flex{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 
 .header{
     width: 100%;
@@ -35,8 +33,6 @@ body{
     width: 100%;
     max-width: 600px;
 }
-
-
 .header__section h1{
     width: 90%;
     font-size: 2.5rem;
@@ -44,7 +40,6 @@ body{
     color: aliceblue;
     text-shadow: 18px 16px 15px rgb(0 0 0);
 }
-
 .header__section p{
     width: 100%;
     text-align: center;
@@ -132,11 +127,32 @@ body{
 
 
 
+.main__section--respuesta{
+    width: 80%;
+    height: auto;
+    max-width: 500px;
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius:20px;
+    box-shadow: 4px 4px 15px 3px rgb(0, 0, 0);
+}
 
 
+.main__section--respuesta p{
+    font-size: 2rem;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+    text-shadow: none;
+    line-height: 2.5rem;
+    margin: 0;
+}
 
-
-
+.DISPLAYnone{
+    display: none;
+}
 
 
 
