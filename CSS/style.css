@@ -52,7 +52,6 @@ body{
 
 
 
-
 .main{
     width: 100%;
     height: auto;
@@ -123,10 +122,6 @@ body{
     cursor: pointer;
 }
 
-
-
-
-
 .main__section--respuesta{
     width: 80%;
     height: auto;
@@ -138,8 +133,6 @@ body{
     border-radius:20px;
     box-shadow: 4px 4px 15px 3px rgb(0, 0, 0);
 }
-
-
 .main__section--respuesta p{
     font-size: 2rem;
     color: black;
@@ -153,9 +146,6 @@ body{
 .DISPLAYnone{
     display: none;
 }
-
-
-
 
 
 

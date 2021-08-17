@@ -75,6 +75,32 @@
     opacity: .8;    
 }
 
+@media(min-width: 360px){
+        
+    .main__section--formulario-sitios-de-stream-container span{
+        width: 104px;
+        height: 58.5px;
+    }
+    .footer div ul li a{
+        font-size: 1.4rem;
+    }
+    .footer div ul li{
+        font-size: 1.4rem;
+    }
+ }
+ @media(min-width: 400px){
+        
+    .main__section--formulario-sitios-de-stream-container span{
+        width: 115px;
+        height: 64px;
+    }
+    .footer div ul li a{
+        font-size: 1.5rem;
+    }
+    .footer div ul li{
+        font-size: 1.5rem;
+    }
+}
  @media(min-width: 800px){
         
     .main__section--formulario-sitios-de-stream-container span{
